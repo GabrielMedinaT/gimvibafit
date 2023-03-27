@@ -8,6 +8,9 @@ export const navBar = () => {
       <div className="nav">
         <h1>VibaFit</h1>
         <input type="checkbox" id="nav-check" />
+        <div className="nav-header">
+          <div class="nav-title"></div>
+        </div>
         <div className="nav-btn">
           <label for="nav-check">
             <span></span>

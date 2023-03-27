@@ -6,7 +6,6 @@ import NavBar from "./Components/NavBar";
 import Acerca from "./pages/Acerca";
 import Home from "./pages/Home";
 import Actividades from "./pages/Actividades";
-import Pruebas from "./pruebas/Pruebas";
 import Login from "./pages/Login";
 
 function App() {
