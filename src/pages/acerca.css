@@ -1,0 +1,61 @@
+.acerca {
+  height: 100vh;
+  width: 100vw;
+
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.descripcion1 {
+  background-image: url(../images/descripción1.jpeg);
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 900px;
+  width: 400px;
+  border-radius: 80px;
+  margin-top: 90px;
+  margin-left: 100px;
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.5);
+}
+.descripcion2 {
+  background-image: url("../images/descripcion2.jpg");
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 900px;
+  width: 400px;
+  border-radius: 80px;
+  margin-top: -900px;
+  margin-left: 1300px;
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.5);
+}
+
+.video {
+  width: 560px;
+  height: 315px;
+  margin-top: -800px;
+  margin-left: 600px;
+  box-shadow: -20px 90px 90px 0 rgba(0, 0, 0, 0.87);
+}
+.vid .animation {
+  width: 400px;
+  height: 300px;
+  background-color: blue;
+  margin: 10px auto;
+}
+.mapaGoogle {
+  width: 100%;
+  height: 100%;
+  margin-top: 80px;
+  box-shadow: -20px 90px 90px 0 rgba(0, 0, 0, 0.87);
+}
+.videoYoutube {
+  border: solid 1px #ccc;
+}

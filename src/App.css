@@ -1,0 +1,22 @@
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.root {
+  width: 100vw;
+  height: 100vh;
+}
+.App {
+  height: 100vh;
+  width: 100vw;
+  padding: 20px;
+  margin: 20px;
+  background-image: url("./images/LogoGeneral.jpeg");
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+}

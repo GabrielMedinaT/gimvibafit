@@ -1,0 +1,275 @@
+.actividades {
+  background-image: url(../images/LogoNavBar.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 90vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-areas: /* Esto es el grid area, para colocar cada DIV donde corresponde */
+    "dia    lunes martes miercoles jueves viernes "
+    "hora1  hl1   hm1    hx1       hj1    hv1    "
+    "hora2  hl2   hm2    hx2       hj2    hv2    "
+    "hora3  hl3   hm3    hx3       hj3    hv3    "
+    "hora4  hl4   hm4    hx4       hj4    hv4    "
+    "hora5  hl5   hm5    hx5       hj5    hv5    ";
+
+  grid-gap: 5px;
+
+  margin-top: 40px;
+}
+.dia {
+  grid-area: dia;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.dlunes {
+  grid-area: lunes;
+  display: flex;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.dmartes {
+  grid-area: martes;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.dmiercoles {
+  grid-area: miercoles;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.djueves {
+  grid-area: jueves;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.dviernes {
+  grid-area: viernes;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#dia {
+  transition: 0.5s;
+}
+#dia:hover {
+  transform: scale(1.2);
+}
+.hora1 {
+  grid-area: hora1;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  font-weight: 900;
+}
+.hora2 {
+  grid-area: hora2;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.hora3 {
+  grid-area: hora3;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.hora4 {
+  grid-area: hora4;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.hora5 {
+  grid-area: hora5;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.hl1 {
+  grid-area: hl1;
+}
+.hl2 {
+  grid-area: hl2;
+}
+.hl3 {
+  grid-area: hl3;
+}
+.hl4 {
+  grid-area: hl4;
+}
+.hl5 {
+  grid-area: hl5;
+}
+.hm1 {
+  grid-area: hm1;
+}
+.hm2 {
+  grid-area: hm2;
+}
+.hm3 {
+  grid-area: hm3;
+}
+.hm4 {
+  grid-area: hm4;
+}
+.hm5 {
+  grid-area: hm5;
+}
+.hx1 {
+  grid-area: hx1;
+}
+
+.hx2 {
+  grid-area: hx2;
+}
+.hx3 {
+  grid-area: hx3;
+}
+.hx4 {
+  grid-area: hx4;
+}
+.hx5 {
+  grid-area: hx5;
+}
+.hj1 {
+  grid-area: hj1;
+}
+.hj2 {
+  grid-area: hj2;
+}
+.hj3 {
+  grid-area: hj3;
+}
+.hj4 {
+  grid-area: hj4;
+}
+.hv1 {
+  grid-area: hv1;
+}
+#horas {
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  background-color: #f5f5f5e8;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+#horasL {
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  background-color: #f5f5f5e8;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+#horas:hover {
+  transform: scale(1.2);
+  background-color: #f5f5f5;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.dlunes:hover ~ #horasL {
+  backdrop-filter: blur(30px);
+  background-color: yellow;
+}
