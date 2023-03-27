@@ -145,8 +145,9 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+  /* Color cambiado por el blanco  rgb(24, 81, 240)*/
   .navBar .nav {
-    background-color: rgb(24, 81, 240);
+    background-color: white;
     z-index: 100;
     margin-left: -40px;
     margin-top: -40px;
@@ -157,35 +158,42 @@ body {
   .nav > .nav-btn {
     display: inline-block;
     position: absolute;
-    right: 0px;
+    right: 20px;
+    /* right: 0px; */
     top: 0px;
   }
   .nav > .nav-btn > label {
     display: inline-block;
     width: 50px;
     height: 50px;
-    padding: 13px;
+    padding-top: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-bottom: 13px;
   }
   .nav > .nav-btn > label:hover,
   .nav #nav-check:checked ~ .nav-btn > label {
     background-color: rgba(0, 0, 0, 0.3);
+    height: 32px;
   }
   .nav > .nav-btn > label > span {
     display: block;
     width: 25px;
-    height: 10px;
+    height: 6px;
     border-top: 2px solid #eee;
   }
   .nav > .nav-links {
     position: absolute;
     display: block;
     width: 100%;
-    background-color: #333;
+    /* background-color: #333; */
+    background-color: #9bdad8;
     height: 0px;
     transition: all 0.3s ease-in;
     overflow-y: hidden;
     top: 50px;
     left: 0px;
+    /* box-shadow: 10px 5px 5px black; */
   }
   .nav > .nav-links > a {
     display: block;
@@ -206,6 +214,7 @@ body {
     background: none;
     font-weight: 800;
     font-family: "Poppins", sans-serif;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
   }
   li {
     text-align: center;
