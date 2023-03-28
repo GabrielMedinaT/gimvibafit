@@ -6,7 +6,9 @@ export const navBar = () => {
   return (
     <div className="navBar">
       <div className="nav">
-        <h1>VibaFit</h1>
+        <div className="cajaNav">
+          <h1>VibaFit</h1>
+        </div>
         <input type="checkbox" id="nav-check" />
         <div className="nav-header">
           <div class="nav-title"></div>

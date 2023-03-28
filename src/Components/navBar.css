@@ -1,4 +1,4 @@
-/* !Empieza hamburguesa */
+
 .navbar {
   background-color: #4d4d4d;
   height: 120px;
@@ -58,6 +58,7 @@ body {
   .nav h1 {
     display: none;
   }
+
   .navBar .nav {
     background-color: white;
     z-index: 100;
@@ -144,6 +145,8 @@ body {
   }
 }
 
+/* !Empieza hamburguesa */
+
 @media only screen and (max-width: 600px) {
   /* Color cambiado por el blanco  rgb(24, 81, 240)*/
   .navBar .nav {
@@ -153,6 +156,12 @@ body {
     margin-top: -40px;
     height: 50px;
     width: 100vw;
+  }
+
+  /* Intentando darle color a la caja principal del nav */
+  .cajaNav{
+    /* height: 400px; */
+    /* background-color: #9bdad8; */
   }
 
   .nav > .nav-btn {
@@ -203,8 +212,9 @@ body {
     height: 0px;
   }
   .nav > #nav-check:checked ~ .nav-links {
-    height: calc(100vh - 50px);
+    height: calc(40vh - 50px);
     overflow-y: auto;
+    margin-top: -17px;
   }
   button {
     color: white;
