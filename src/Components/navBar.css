@@ -159,10 +159,10 @@ body {
   }
 
   /* Intentando darle color a la caja principal del nav */
-  .cajaNav{
-    /* height: 400px; */
-    /* background-color: #9bdad8; */
-  }
+  /* .cajaNav{
+    height: 400px;
+    background-color: #9bdad8;
+  } */
 
   .nav > .nav-btn {
     display: inline-block;
