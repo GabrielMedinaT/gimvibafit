@@ -68,19 +68,19 @@ const Actividades = () => {
         <h3>Latin Fit</h3>
       </div>
       {/* MARTES */}
-      <div className="hm1" id="horas">
+      <div className="hm1" id="horasM">
         <h3>Dorsal</h3>
         <h3>Fitball</h3>
         <h3>Fullbody</h3>
         <h3>Body up</h3>
       </div>
-      <div className="hm2" id="horas">
+      <div className="hm2" id="horasM">
         <h3>GAP</h3>
       </div>
-      <div className="hm3" id="horas">
+      <div className="hm3" id="horasM">
         <h3>Pilates</h3>
       </div>
-      <div className="hm4" id="horas">
+      <div className="hm4" id="horasM">
         <h3>Trampolín</h3>
         <h3>Dance Fit</h3>
         <h3>Strong</h3>
