@@ -5,41 +5,11 @@ const Actividades = () => {
   return (
     <div className="actividades">
       <div className="dia"></div>
+      {/* LUNES */}
       <div className="dlunes" id="dia">
         {/* Nombrarmos a los div de los dias de la siguiente mandera dlunes, dmartes etc */}
         <h3>Lunes</h3>
       </div>
-      <div className="dmartes" id="dia">
-        <h3>Martes</h3>
-      </div>
-      <div className="dmiercoles" id="dia">
-        <h3>Miercoles</h3>
-      </div>
-      <div className="djueves" id="dia">
-        <h3>Jueves</h3>
-      </div>
-      <div className="dviernes" id="dia">
-        <h3>Viernes</h3>
-      </div>
-      {/* Los siguientes div corresponden a las horas, seran tienen un className de la siguiente manera
-      hora1, hora2 etc */}
-      <div className="hora1" id="hora1">
-        <h3>09:30</h3>
-      </div>
-      <div className="hora2">
-        <h3>10:30</h3>
-      </div>
-      <div className="hora3">
-        <h3>18:00</h3>
-      </div>
-      <div className="hora4">
-        <h3>19:00</h3>
-      </div>
-      <div className="hora5">
-        <h3>20:00</h3>
-      </div>
-      {/* Los siguientes div corresponden a las horas, seran tienen un className de la siguiente manera
-      hl1 que significa hora del lunes 1, hl2 hora del lunes 2 etc */}
       <div className="hl1" id="horasL">
         <h3>Funcional</h3>
         <h3>Core</h3>
@@ -68,6 +38,9 @@ const Actividades = () => {
         <h3>Latin Fit</h3>
       </div>
       {/* MARTES */}
+      <div className="dmartes" id="dia">
+        <h3>Martes</h3>
+      </div>
       <div className="hm1" id="horas">
         <h3>Dorsal</h3>
         <h3>Fitball</h3>
@@ -88,6 +61,10 @@ const Actividades = () => {
       </div>
       <div className="hm5"></div>
       {/* MIERCOLES */}
+      <div className="dmiercoles" id="dia">
+        <h3>Miercoles</h3>
+      </div>
+
       <div className="hx1" id="horas">
         <h3>Cardio Box</h3>
         <h3>Trampolín</h3>
@@ -116,6 +93,9 @@ const Actividades = () => {
         <h3>Funcional</h3>
       </div>
       {/* JUEVES */}
+      <div className="djueves" id="dia">
+        <h3>Jueves</h3>
+      </div>
       <div className="hj1" id="horas">
         <h3>Metcom</h3>
         <h3>4 Season</h3>
@@ -134,13 +114,36 @@ const Actividades = () => {
         <h3>Trampolín</h3>
         <h3>Funcioal</h3>
       </div>
+
       {/* Viernes */}
+      <div className="dviernes" id="dia">
+        <h3>Viernes</h3>
+      </div>
       <div className="hv1" id="horas">
         <h3>Cada Viernes</h3>
         <h3>una clase</h3>
         <h3>diferente del</h3>
         <h3>horario</h3>
       </div>
+      {/* Los siguientes div corresponden a las horas, seran tienen un className de la siguiente manera
+      hora1, hora2 etc */}
+      <div className="hora1" id="hora1">
+        <h3>09:30</h3>
+      </div>
+      <div className="hora2">
+        <h3>10:30</h3>
+      </div>
+      <div className="hora3">
+        <h3>18:00</h3>
+      </div>
+      <div className="hora4">
+        <h3>19:00</h3>
+      </div>
+      <div className="hora5">
+        <h3>20:00</h3>
+      </div>
+      {/* Los siguientes div corresponden a las horas, seran tienen un className de la siguiente manera
+      hl1 que significa hora del lunes 1, hl2 hora del lunes 2 etc */}
     </div>
   );
 };

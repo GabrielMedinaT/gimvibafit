@@ -1,3 +1,5 @@
+@media only screen and (min-width: 1000px) {
+
 .actividades {
   background-image: url(../images/LogoNavBar.jpeg);
   background-repeat: no-repeat;
@@ -272,4 +274,30 @@
 .dlunes:hover ~ #horasL {
   backdrop-filter: blur(30px);
   background-color: yellow;
+}
+}
+
+
+@media only screen and (max-width: 600px) {
+
+/* .nav #nav-check:checked ~ .nav-btn > label {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 32px;
+} */
+
+.dlunes{  display: none;}
+.dmartes{  display: none;}
+.dmiercoles{  display: none;}
+.djueves{  display: none;}
+.dviernes{  display: none;}
+
+.acor ~ .dlunes :hover {
+  display: none;
+background-color: antiquewhite;}
+
+
+div > div > h3:hover{
+  background-color: blue;
+}
+
 }
