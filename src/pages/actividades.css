@@ -178,6 +178,7 @@
 }
 .hl2 {
   grid-area: hl2;
+  height: 100%;
 }
 .hl3 {
   grid-area: hl3;
@@ -193,6 +194,7 @@
 }
 .hm2 {
   grid-area: hm2;
+  height: 100%;
 }
 .hm3 {
   grid-area: hm3;
@@ -209,6 +211,7 @@
 
 .hx2 {
   grid-area: hx2;
+
 }
 .hx3 {
   grid-area: hx3;
@@ -271,12 +274,25 @@
   z-index: 1;
 }
 
+
 .dlunes:hover ~ #horasL {
   backdrop-filter: blur(30px);
   background-color: yellow;
 }
 }
 
+
+.horasMov{
+  display: none;
+}
+
+#hovHor:hover {
+  transform: scale(1.2);
+  background-color: #f5f5f5;
+  cursor: pointer;
+  z-index: 1;
+  transition: 0.5s;
+}
 
 @media only screen and (max-width: 600px) {
 
@@ -285,19 +301,27 @@
   height: 32px;
 } */
 
-.dlunes{  display: none;}
-.dmartes{  display: none;}
-.dmiercoles{  display: none;}
-.djueves{  display: none;}
-.dviernes{  display: none;}
-
-.acor ~ .dlunes :hover {
+#horasL{
   display: none;
-background-color: antiquewhite;}
+}
+#horas{
+  display: none;
+}
+#horasX{
+  display: none;
+}
+#horasJ{
+  display: none;
+}
+#horasV{
+  display: none;
+}
 
 
-div > div > h3:hover{
-  background-color: blue;
+.dlunes:hover ~ #horasL {
+  display: flex;
+  flex-direction: column;
+  background-color: yellow;
 }
 
 }
