@@ -1,12 +1,15 @@
 import React from "react";
 import "./Contacto.css";
 import emailJs from "emailjs-com";
+import { Navigate, useNavigate } from "react-router-dom";
 
 const Contacto = () => {
   const [nombre, setNombre] = React.useState("");
   const [email, setEmail] = React.useState("");
   const [mensaje, setMensaje] = React.useState("");
   const [template, setTemplate] = React.useState("template_1");
+  const navigate = useNavigate();
+
   const cambiarTemplate = (e) => {
     setTemplate(e.target.value);
   };
@@ -23,6 +26,7 @@ const Contacto = () => {
       .then(
         (result) => {
           console.log(result.text);
+          navigate("/Gracias");
         },
         (error) => {
           console.log(error.text);
