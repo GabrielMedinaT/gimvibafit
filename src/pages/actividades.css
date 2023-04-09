@@ -319,7 +319,7 @@
   height: 32px;
 } */
 
-#horasL{
+/* #horasL{
   display: none;
 }
 #horas{
@@ -333,14 +333,17 @@
 }
 #horasV{
   display: none;
+} */
+
+#hovHor{
+  display: none;
 }
 
-
-.dlunes:hover ~ #horasL {
+.dlunes:hover ~ #hovHor {
   display: flex;
   flex-direction: column;
   background-color: yellow;
-  height: 40px;
+  /* height: 40px; */
 }
 
 }
