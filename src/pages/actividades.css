@@ -304,7 +304,7 @@
   display: none;
 }
 
-#hovHor:hover {
+#hovHorL:hover {
   transform: scale(1.2);
   background-color: #f5f5f5;
   cursor: pointer;
@@ -319,31 +319,95 @@
   height: 32px;
 } */
 
-/* #horasL{
+#hovHorL{
   display: none;
 }
-#horas{
+#hovHorM{
   display: none;
 }
-#horasX{
+#hovHorX{
   display: none;
 }
-#horasJ{
+#hovHorJ{
   display: none;
 }
-#horasV{
+#hovHorV{
   display: none;
-} */
+}
+.hora1{
+  display: none;
+}
+.hora2{
+  display: none;
+}
+.hora3{
+  display: none;
+}
+.hora4{
+  display: none;
+}
+.hora5{
+  display: none;
+}
 
-#hovHor{
-  display: none;
-}
-
-.dlunes:hover ~ #hovHor {
+.dlunes:hover ~ #hovHorL {
   display: flex;
   flex-direction: column;
   background-color: yellow;
-  /* height: 40px; */
+}
+
+.dmartes:hover ~ #hovHorM {
+  display: flex;
+  flex-direction: column;
+  background-color: yellow;
+}
+
+.dmiercoles:hover ~ #hovHorX {
+  display: flex;
+  flex-direction: column;
+  background-color: yellow;
+}
+.djueves:hover ~ #hovHorJ {
+  display: flex;
+  flex-direction: column;
+  background-color: yellow;
+}
+.dviernes:hover ~ #hovHorV {
+  display: flex;
+  flex-direction: column;
+  background-color: yellow;
+}
+
+.actividades{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dlunes{
+  font-size: 2rem;
+  border: 4px red solid;
+  padding:0.5rem 100% ;
+}
+.dmartes{
+  font-size: 2rem;
+  border: 4px red solid;
+  padding:0.5rem 100% ;
+}
+.dmiercoles{
+  font-size: 2rem;
+  border: 4px red solid;
+  padding:0.5rem 100% ;
+}
+.djueves{
+  font-size: 2rem;
+  border: 4px red solid;
+  padding:0.5rem 100% ;
+}
+.dviernes{
+  font-size: 2rem;
+  border: 4px red solid;
+  padding:0.5rem 100% ;
 }
 
 }

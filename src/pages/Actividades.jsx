@@ -10,7 +10,7 @@ const Actividades = () => {
         {/* Nombrarmos a los div de los dias de la siguiente mandera dlunes, dmartes etc */}
         <h3>Lunes</h3>
       </div>
-      <div id="hovHor">
+      <div id="hovHorL">
         <div>
           <h3 className="horasMov">9:30</h3>
         </div>
@@ -21,7 +21,7 @@ const Actividades = () => {
           <h3>Cardio</h3>
         </div>
       </div>
-      <div id="hovHor">
+      <div id="hovHorL">
         <div>
           <h3 className="horasMov">10:30</h3>
         </div>
@@ -29,7 +29,7 @@ const Actividades = () => {
           <h3>Funcional</h3>
         </div>
       </div>
-      <div className="hl3" id="hovHor">
+      <div className="hl3" id="hovHorL">
         <div>
           <h3 className="horasMov">18:00</h3>
         </div>
@@ -40,7 +40,7 @@ const Actividades = () => {
           <h3>Cross</h3>
         </div>
       </div>
-      <div className="hl4" id="hovHor">
+      <div className="hl4" id="hovHorL">
         <div>
           <h3 className="horasMov">19:00</h3>
         </div>
@@ -51,7 +51,7 @@ const Actividades = () => {
           <h3>Dance Fit</h3>
         </div>
       </div>
-      <div className="hl5" id="hovHor">
+      <div className="hl5" id="hovHorL">
         <div>
           <h3 className="horasMov">20:00</h3>
         </div>
@@ -66,7 +66,7 @@ const Actividades = () => {
       <div className="dmartes" id="dia">
         <h3>Martes</h3>
       </div>
-      <div className="hm1">
+      <div className="hm1" id="hovHorM">
         <div className="horasMov">
           <h3>9:30</h3>
         </div>
@@ -77,7 +77,7 @@ const Actividades = () => {
           <h3>Body up</h3>
         </div>
       </div>
-      <div className="hm2">
+      <div className="hm2" id="hovHorM">
         <div className="horasMov">
           <h3>10:30</h3>
         </div>
@@ -85,7 +85,7 @@ const Actividades = () => {
           <h3>GAP</h3>
         </div>
       </div>
-      <div className="hm3">
+      <div className="hm3" id="hovHorM">
         <div className="horasMov">
           <h3>18:00</h3>
         </div>
@@ -93,7 +93,7 @@ const Actividades = () => {
           <h3>Pilates</h3>
         </div>
       </div>
-      <div className="hm4">
+      <div className="hm4" id="hovHorM">
         <div>
           <h3 className="horasMov">19:00</h3>
         </div>
@@ -104,12 +104,12 @@ const Actividades = () => {
           <h3>Ritmos Mixtos</h3>
         </div>
       </div>
-      <div className="hm5"></div>
+      <div className="hm5" id="hovHorM"></div>
       {/* MIERCOLES */}
       <div className="dmiercoles" id="dia">
         <h3>Miercoles</h3>
       </div>
-      <div className="hx1">
+      <div className="hx1" id="hovHorX">
         <div>
           <h3 className="horasMov">9:30</h3>
         </div>
@@ -120,7 +120,7 @@ const Actividades = () => {
           <h3>Metcom</h3>
         </div>
       </div>
-      <div className="hx2">
+      <div className="hx2" id="hovHorX">
         <div className="horasMov">
           <h3>10:30</h3>
         </div>
@@ -128,7 +128,7 @@ const Actividades = () => {
           <h3>METCOM</h3>
         </div>
       </div>
-      <div className="hx3">
+      <div className="hx3" id="hovHorX">
         <div className="horasMov">
           <h3>18:00</h3>
         </div>
@@ -139,7 +139,7 @@ const Actividades = () => {
           <h3>WOD</h3>
         </div>
       </div>
-      <div className="hx4">
+      <div className="hx4" id="hovHorX">
         <div className="horasMov">
           <h3>19:00</h3>
         </div>
@@ -150,7 +150,7 @@ const Actividades = () => {
           <h3>Vive Bailando</h3>
         </div>
       </div>
-      <div className="hx5">
+      <div className="hx5" id="hovHorX">
         <div className="horasMov">
           <h3>20:00</h3>
         </div>
@@ -165,7 +165,7 @@ const Actividades = () => {
       <div className="djueves" id="dia">
         <h3>Jueves</h3>
       </div>
-      <div className="hj1">
+      <div className="hj1" id="hovHorJ">
         <div className="horasMov">
           <h3>09:30</h3>
         </div>
@@ -176,7 +176,7 @@ const Actividades = () => {
           <h3>GAP</h3>
         </div>
       </div>
-      <div>
+      <div id="hovHorJ">
         <div className="horasMov">
           <h3>10:30</h3>
         </div>
@@ -184,7 +184,7 @@ const Actividades = () => {
           <h3>Body Up</h3>
         </div>
       </div>
-      <div className="hj3">
+      <div className="hj3" id="hovHorJ">
         <div className="horasMov">
           <h3>18:00</h3>
         </div>
@@ -192,7 +192,7 @@ const Actividades = () => {
           <h3>Pilates</h3>
         </div>
       </div>
-      <div className="hj4">
+      <div className="hj4" id="hovHorJ">
         <div className="horasMov">
           <h3>19:00</h3>
         </div>
@@ -208,7 +208,7 @@ const Actividades = () => {
       <div className="dviernes" id="dia">
         <h3>Viernes</h3>
       </div>
-      <div className="hv1">
+      <div className="hv1" id="hovHorV">
         <div className="horasMov">
           <h3>09:30</h3>
         </div>
