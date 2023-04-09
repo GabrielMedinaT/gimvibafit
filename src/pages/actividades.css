@@ -175,6 +175,7 @@
 }
 .hl1 {
   grid-area: hl1;
+  height: 100%;
 }
 .hl2 {
   grid-area: hl2;
@@ -182,15 +183,19 @@
 }
 .hl3 {
   grid-area: hl3;
+  height: 100%;
 }
 .hl4 {
   grid-area: hl4;
+  height: 100%;
 }
 .hl5 {
   grid-area: hl5;
+  height: 100%;
 }
 .hm1 {
   grid-area: hm1;
+  height: 100%;
 }
 .hm2 {
   grid-area: hm2;
@@ -198,44 +203,57 @@
 }
 .hm3 {
   grid-area: hm3;
+  height: 100%;
 }
 .hm4 {
   grid-area: hm4;
+  height: 100%;
 }
 .hm5 {
   grid-area: hm5;
+  height: 100%;
 }
 .hx1 {
   grid-area: hx1;
+  height: 100%;
 }
 
 .hx2 {
   grid-area: hx2;
+  height: 100%;
 
 }
 .hx3 {
   grid-area: hx3;
+  height: 100%;
 }
 .hx4 {
   grid-area: hx4;
+  height: 100%;
 }
 .hx5 {
   grid-area: hx5;
+  height: 100%;
 }
 .hj1 {
   grid-area: hj1;
+  height: 100%;
 }
 .hj2 {
   grid-area: hj2;
+  height: 100%;
 }
 .hj3 {
   grid-area: hj3;
+  height: 100%;
 }
 .hj4 {
   grid-area: hj4;
+  height: 100%;
 }
 .hv1 {
   grid-area: hv1;
+  height: 100%;
 }
 #horas {
   box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
@@ -322,6 +340,7 @@
   display: flex;
   flex-direction: column;
   background-color: yellow;
+  height: 40px;
 }
 
 }
