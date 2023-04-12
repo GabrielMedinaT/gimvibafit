@@ -352,7 +352,8 @@
 
 #hovHorL{
   /* display: none; */
-  height: 0px;
+  display: flex;
+  height: 0vh;
 }
 #hovHorM{
   display: none;
