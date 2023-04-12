@@ -297,9 +297,6 @@
   backdrop-filter: blur(30px);
   background-color: yellow;
 }
-}
-
-
 .horasMov{
   display: none;
 }
@@ -312,12 +309,44 @@
   transition: 0.5s;
 }
 
+.checky{
+  display: none;
+}
+}
+
+
 @media only screen and (max-width: 600px) {
 
 /* .nav #nav-check:checked ~ .nav-btn > label {
   background-color: rgba(0, 0, 0, 0.3);
   height: 32px;
 } */
+
+#lun:checked ~ #hovHorL{
+  display: flex;
+  flex-direction: column;
+  background-color: yellow;
+}
+#mar:checked ~ #hovHorM{
+  display: flex;
+  flex-direction: column;
+  background-color: yellow;
+}
+#mier:checked ~ #hovHorX{
+  display: flex;
+  flex-direction: column;
+  background-color: yellow;
+}
+#juev:checked ~ #hovHorJ{
+  display: flex;
+  flex-direction: column;
+  background-color: yellow;
+}
+#vier:checked ~ #hovHorV{
+  display: flex;
+  flex-direction: column;
+  background-color: yellow;
+}
 
 #hovHorL{
   display: none;
@@ -350,7 +379,27 @@
   display: none;
 }
 
-.dlunes:hover ~ #hovHorL {
+.dlunes{
+  display: none;
+}
+.dmartes{
+  display: none;
+}
+.dmiercoles{
+  display: none;
+}
+.djueves{
+  display: none;
+}
+.dviernes{
+  display: none;
+}
+
+.checkcheck{
+  display: none;
+}
+
+/* .dlunes:hover ~ #hovHorL {
   display: flex;
   flex-direction: column;
   background-color: yellow;
@@ -376,7 +425,7 @@
   display: flex;
   flex-direction: column;
   background-color: yellow;
-}
+} */
 
 .actividades{
   display: flex;

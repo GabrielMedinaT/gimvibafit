@@ -6,6 +6,15 @@ const Actividades = () => {
     <div className="actividades">
       <div className="dia"></div>
       {/* LUNES */}
+      <label htmlFor="lun" className="checky">
+        LUNES
+      </label>
+      <input
+        type="checkbox"
+        name="lun"
+        id="lun"
+        className="checky checkcheck"
+      />
       <div className="dlunes" id="dia">
         {/* Nombrarmos a los div de los dias de la siguiente mandera dlunes, dmartes etc */}
         <h3>Lunes</h3>
@@ -63,6 +72,15 @@ const Actividades = () => {
         </div>
       </div>
       {/* MARTES */}
+      <label htmlFor="mar" className="checky">
+        MARTES
+      </label>
+      <input
+        type="checkbox"
+        name="mar"
+        id="mar"
+        className="checky checkcheck"
+      />
       <div className="dmartes" id="dia">
         <h3>Martes</h3>
       </div>
@@ -106,6 +124,15 @@ const Actividades = () => {
       </div>
       <div className="hm5" id="hovHorM"></div>
       {/* MIERCOLES */}
+      <label htmlFor="mier" className="checky">
+        MIERCOLES
+      </label>
+      <input
+        type="checkbox"
+        name="mier"
+        id="mier"
+        className="checky checkcheck"
+      />
       <div className="dmiercoles" id="dia">
         <h3>Miercoles</h3>
       </div>
@@ -162,6 +189,15 @@ const Actividades = () => {
         </div>
       </div>
       {/* JUEVES */}
+      <label htmlFor="juev" className="checky">
+        JUEVES
+      </label>
+      <input
+        type="checkbox"
+        name="juev"
+        id="juev"
+        className="checky checkcheck"
+      />
       <div className="djueves" id="dia">
         <h3>Jueves</h3>
       </div>
@@ -205,6 +241,15 @@ const Actividades = () => {
       </div>
 
       {/* Viernes */}
+      <label htmlFor="vier" className="checky">
+        VIERNES
+      </label>
+      <input
+        type="checkbox"
+        name="vier"
+        id="vier"
+        className="checky checkcheck"
+      />
       <div className="dviernes" id="dia">
         <h3>Viernes</h3>
       </div>
